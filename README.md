@@ -149,9 +149,6 @@ fig: mqtt out node
 
 
 
-![fig: button node for ON LED](https://paper-attachments.dropboxusercontent.com/s_DE46169648EC1184505F0FEE30B79C93229F6F5C4674567BCFF38BB678D2F8D7_1683013674573_image.png)
-
-
 fig: button node set to switch off
 
 ![fig: button node set to switch off](https://paper-attachments.dropboxusercontent.com/s_DE46169648EC1184505F0FEE30B79C93229F6F5C4674567BCFF38BB678D2F8D7_1681980738044_Untitled.png)
