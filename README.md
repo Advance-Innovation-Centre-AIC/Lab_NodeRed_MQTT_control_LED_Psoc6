@@ -98,7 +98,7 @@ fig: import function
 
 
 
-    c. วาง code ลงหน้า cilpboard >> เลือก new flow >> คลิ๊ก import
+c. วาง code ลงหน้า cilpboard >> เลือก new flow >> คลิ๊ก import
 
 
 ![](https://camo.githubusercontent.com/a8fbe0623c069fe495f9b36538e32d60a5f637ba013be3131af2ea78ab35c78f/68747470733a2f2f70617065722d6174746163686d656e74732e64726f70626f7875736572636f6e74656e742e636f6d2f735f453532434539363336434332314535344342373834434341384132374342353633354439364536373037383033364238413842393236444142443634383644365f313637363139393230363238375f556e7469746c65642e706e67)
@@ -107,12 +107,12 @@ fig: import function
 
 
 
-    d. สังเกตที่แถบ flow จะมี flow ชื่อว่า “Button control LED PSoC6” ปรากฎ
+d. สังเกตที่แถบ flow จะมี flow ชื่อว่า “Button control LED PSoC6” ปรากฎ
 
 *หมายเหตุ:* สำหรับหรับ node-red ที่ติดตั้งใหม่ ให้ติดตั้ง module dashboard เพิ่ม 
 
-    - ไปที่ Manage palette >>Install>> search modules >> พิมพ์ “Dashboard >> เลือก node-red-dashboard >> install
-    - ดูตัวอย่างการใช้งาน dashboard เบื้องต้นได้จาก [LAB: Basic Node-red Dashboard](https://github.com/Advance-Innovation-Centre-AIC/EE_Curriculum/tree/main/term2_65_EMB64_Applied_ES/LAB11#lab11-basic-node-red-dashboard)
+- ไปที่ Manage palette >>Install>> search modules >> พิมพ์ “Dashboard >> เลือก node-red-dashboard >> install
+- ดูตัวอย่างการใช้งาน dashboard เบื้องต้นได้จาก [LAB: Basic Node-red Dashboard](https://github.com/Advance-Innovation-Centre-AIC/EE_Curriculum/tree/main/term2_65_EMB64_Applied_ES/LAB11#lab11-basic-node-red-dashboard)
 
 
 
