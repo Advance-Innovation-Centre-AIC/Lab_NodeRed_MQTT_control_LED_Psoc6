@@ -44,7 +44,8 @@ This example uses the board's default configuration. See the kit user guide to e
         2. ตั้งค่าการเชื่อมต่อ MQTT เป็นแบบ Non-secure 
         3. ตั้งชื่อ mqtt Topic สำหรับใช้ในการสื่อสารระหว่าง  publisher และ subscriber 
         4. ตั้งค่า QoS เป็น mode 0 ในการสื่อผ่าน MQTT แบบ Non-secure
-    
+        
+ `````  
     // i. MQTT CLIENT CONNECTION CONFIGURATION MACROS
     #define MQTT_BROKER_ADDRESS               "test.mosquitto.org"
     #define MQTT_PORT                         1883
@@ -59,7 +60,7 @@ This example uses the board's default configuration. See the kit user guide to e
     /* iv. Set the QoS that is associated with the MQTT publish, and subscribe message. */
     #define MQTT_MESSAGES_QOS                 ( 0 )
 
-
+`````
 
 3. Build และ upload โปรแกรมลงบอร์ด 
 4. เขียนโปรแกรม Node-red ใช้ MQTT  เป็น publisher ควบคุม LED บอร์ด PSoC6 
@@ -76,7 +77,7 @@ This example uses the board's default configuration. See the kit user guide to e
 ## **Setting Node-red** 
 1. เริ่มใช้งาน  node-red → [ติดตั้ง Node-red บน Windows](https://github.com/Advance-Innovation-Centre-AIC/EE_Curriculum/blob/main/term2_65_EMB62_IoT/LAB01/Get_started_Node-red.md#%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-node-red-%E0%B8%9A%E0%B8%99-windows)
 2. import code Button control LED PSoC6
-    1. คลิ๊กที่ ไฟล์ source >>\[Button control LED PSoC6.json\]( )
+    1. คลิ๊กที่ ไฟล์ source >>\[Button control LED PSoC6.json](https://github.com/Advance-Innovation-Centre-AIC/Lab_NodeRed_MQTT_control_LED_Psoc6/blob/2ced2d2bc014f3dbe35f54c52da94548c25be7fc/flow/ButtonControl_LED_PSoC6.json)
     2. copy code ไปที่ แถบขวามือ>>คลิ๊กที่แถบ ขีดสามขีด>> เลือก import
 ![fig: import function](https://camo.githubusercontent.com/5a37c5f182695a69f125fdd207bf995385cf5c8d6ab5ed87048e6928f4595c9e/68747470733a2f2f70617065722d6174746163686d656e74732e64726f70626f7875736572636f6e74656e742e636f6d2f735f453532434539363336434332314535344342373834434341384132374342353633354439364536373037383033364238413842393236444142443634383644365f313637363139383932383536355f556e7469746c65642e706e67)
 
