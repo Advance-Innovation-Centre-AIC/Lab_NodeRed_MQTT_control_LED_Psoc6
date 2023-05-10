@@ -191,7 +191,7 @@ fig: button node set to switch on
 -----------
 Date: 10 May 2023
 
-   *Author: Soontree jaikhong (AIC-Researcher)
+   *Author: Soontree Jaikhong (AIC-Researcher)
 
 
 
